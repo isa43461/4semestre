@@ -14,7 +14,7 @@ def max_crossing(A, low, mid, hi):
     if (accr > bestr): bestr = accr
     r += 1
   return bestl + bestr
-
+  
 def mss(A, low, hi):
   ans = 0
   if (low + 1 == hi):
